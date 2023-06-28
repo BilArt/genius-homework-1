@@ -1,0 +1,223 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2");
+}
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2");
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Play-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play-Bold";
+  font-style: bold;
+  font-weight: 700;
+  src: url("../fonts/Play-Bold.ttf") format("ttf");
+}
+
+/* Global */
+
+:root {
+  --color-brand-black: #011c44;
+  --color-brand-blue: #2b7fff;
+  --color-black: #000000;
+  --color-brand-black2: #4a4a4a;
+  --color-white: #ffffff;
+  --color-grey: #747272;
+  --color-yellow: #ffd02b;
+}
+
+body {
+  color: var(--color-brand-black);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  font-family: "Play-Regular", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.title span {
+  color: var(--color-brand-blue);
+}
+/* header */
+.header-link {
+  color: var(--color-brand-black);
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: var(--color-brand-blue);
+  font-weight: 700;
+}
+
+/* hero */
+h1 {
+  color: var(--color-brand-blue);
+  font-family: "Play-Bold", sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.81;
+}
+
+.hero-button {
+  color: var(--color-white);
+  background-color: var(--color-brand-blue);
+  border: 0;
+  font-weight: 600;
+  line-height: 1.17;
+  padding: 16px 32px 16px 32px;
+  border-radius: 32px;
+  border: 2px solid var(--color-brand-blue);
+}
+
+.hero-button:hover {
+  color: var(--color-brand-black);
+  background: rgba(0, 0, 0, 0);
+}
+
+.hero-text {
+  color: var(--color-brand-black2);
+  line-height: 1.72;
+}
+
+/* reincarnation-section */
+.reincarnation-text {
+  color: var(--color-brand-black);
+  font-size: 22px;
+  line-height: 1.52;
+}
+
+.reincarnation-text span {
+  font-weight: 600;
+}
+
+/* choosing-section */
+.choosing-text {
+  color: var(--color-black);
+  text-align: center;
+  line-height: auto;
+}
+
+/* procedures-section */
+.procedures-text {
+  color: var(--color-white);
+  font-size: 22px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+/* find_us-section */
+.form-title {
+  color: var(--color-white);
+}
+
+.form-title span {
+  color: var(--color-brand-blue);
+}
+
+.wrapper {
+  display: flex;
+}
+
+.left-block {
+  display: inline-block;
+}
+
+.right-block {
+  display: inline-block;
+}
+
+.form {
+  background-color: var(--color-brand-black);
+}
+
+.form p {
+  color: var(--color-grey);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.input {
+  color: var(--color-white);
+  background-color: var(--color-background);
+  border: 2px solid var(--color-grey);
+  border-radius: 32px;
+  padding: 18px 32.85px;
+}
+
+.find_us-button {
+  color: var(--color-white);
+  background-color: var(--color-brand-blue);
+  border: 0;
+  border-radius: 32px;
+  padding: 16px 32px;
+  font-weight: 600;
+  line-height: auto;
+  border: 2px solid var(--color-brand-blue);
+}
+
+.find_us-button:hover {
+  color: var(--color-white);
+  background: rgba(0, 0, 0, 0);
+}
+
+/* footer */
+footer {
+  background-color: var(--color-brand-black);
+  color: var(--color-white);
+}
+
+.footer-link {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.address-link {
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 16px;
+  line-height: auto;
+}
+
+.address-copyright {
+  color: var(--color-grey);
+  font-size: 13px;
+  line-height: auto;
+}
+
+.inline-block {
+  display: inline-block;
+}
