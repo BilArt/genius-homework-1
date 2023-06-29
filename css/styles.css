@@ -23,21 +23,6 @@
   src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2");
 }
 
-@font-face {
-  font-display: swap;
-  font-family: "Play-Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/Play-Regular.ttf") format("ttf");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Play-Bold";
-  font-style: bold;
-  font-weight: 700;
-  src: url("../fonts/Play-Bold.ttf") format("ttf");
-}
 
 /* Global */
 
@@ -63,7 +48,7 @@ ul {
 }
 
 h2 {
-  font-family: "Play-Regular", sans-serif;
+  font-family: "Play", sans-serif;
   font-size: 64px;
   font-weight: 700;
   line-height: 1.15;
@@ -86,7 +71,7 @@ h2 {
 /* hero */
 h1 {
   color: var(--color-brand-blue);
-  font-family: "Play-Bold", sans-serif;
+  font-family: "Play", sans-serif;
   font-size: 140px;
   font-weight: 700;
   line-height: 0.81;
